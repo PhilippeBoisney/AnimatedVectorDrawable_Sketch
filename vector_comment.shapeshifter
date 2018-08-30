@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "1",
+      "name": "vector",
+      "type": "vector",
+      "width": 24,
+      "height": 24,
+      "children": [
+        {
+          "id": "3",
+          "name": "animation_start",
+          "type": "path",
+          "pathData": "M 20 2 L 4 2 C 2.9 2 2 2.9 2 4 L 2 16 C 2 17.1 2.9 18 4 18 L 18 18 L 22 22 L 22 4 C 22 2.9 21.1 2 20 2 Z",
+          "fillColor": "#000000"
+        },
+        {
+          "id": "96",
+          "name": "group",
+          "type": "group",
+          "children": [
+            {
+              "id": "161",
+              "name": "animation_1",
+              "type": "path",
+              "pathData": "M 5.963 7.029 L 18 7",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 2,
+              "trimPathEnd": 0
+            },
+            {
+              "id": "166",
+              "name": "animation_2",
+              "type": "path",
+              "pathData": "M 6.042 10.002 L 18.003 10.002",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 2,
+              "trimPathEnd": 0
+            },
+            {
+              "id": "175",
+              "name": "animation_3",
+              "type": "path",
+              "pathData": "M 6.092 12.973 L 18 13",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 2,
+              "trimPathEnd": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hiddenLayerIds": []
+  },
+  "timeline": {
+    "animation": {
+      "id": "2",
+      "name": "anim",
+      "duration": 300,
+      "blocks": [
+        {
+          "id": "184",
+          "layerId": "161",
+          "propertyName": "trimPathEnd",
+          "startTime": 0,
+          "endTime": 100,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 1
+        },
+        {
+          "id": "185",
+          "layerId": "166",
+          "propertyName": "trimPathEnd",
+          "startTime": 100,
+          "endTime": 200,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 1
+        },
+        {
+          "id": "186",
+          "layerId": "175",
+          "propertyName": "trimPathEnd",
+          "startTime": 200,
+          "endTime": 300,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "number",
+          "fromValue": 0,
+          "toValue": 1
+        }
+      ]
+    }
+  }
+}
